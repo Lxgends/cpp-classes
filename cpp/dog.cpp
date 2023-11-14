@@ -9,7 +9,7 @@ class Dog{
             age = a;
         }
         
-    void makeNoise() {
+    void woof() {
         cout << "Woof, woof \n";
     }
     
@@ -23,7 +23,7 @@ class Dog{
 
 int main() {
     Dog* dog1 = new Dog("Reksis", 6);
-    dog1->makeNoise();
+    dog1->woof();
     
     return 0;
 }
